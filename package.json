@@ -1,0 +1,21 @@
+{
+  "name": "decemberlabs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "careers": "nightwatch --test tests/careers.js",
+    "houston": "nightwatch --test tests/houston.js",
+    "all": "nightwatch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "nightwatch": "^2.6.20"
+  },
+  "devDependencies": {
+    "chromedriver": "^112.0.0"
+  }
+}
